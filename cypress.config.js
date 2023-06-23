@@ -1,5 +1,5 @@
 module.exports = {
-  projectId: 'hguo3e',
+  projectId: 'xywvj1',
 
   component: {
     // devServer: {
@@ -13,9 +13,10 @@ module.exports = {
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+    port: 3001
   },
   retries: {
     runMode: 2,
     openMode: 0
-  }
+  },
 };
